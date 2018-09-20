@@ -7,6 +7,7 @@ html{
 
 body{
 	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
 	height: 100%;
 	margin: 0;
 }
@@ -35,17 +36,21 @@ body{
 	position: relative;
 	left: 0;
 	top: 0;
-	background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.2);
 	color: #f1f1f1;
-	width: 100%;
+	width: 60em;
 	height: 200px;
-	padding: 20px;
+	padding: 40px 40px 0 40px;
 }
 
 #logo {
 	background-color: none;
-	margin-top: -30px;
-    margin-left: -15px;
+	margin-top: -27px;
+    margin-left: -53px;
+}
+
+#Back2Balance {
+	display: inline-block;
 }
 
 /* .info {
@@ -54,18 +59,21 @@ body{
 
 } */
 nav {
-	position: absolute;
-    margin-top: 0px;
+	position: relative;
+	margin-top: 0px;
+	width: 8em;
+	background: rgba(0,0,0,0.5);
+	margin-bottom: 0em;
 }
 
 
 .main_nav__items {
 	line-height: 87px;
 	display: block;
-	/* padding-left: 81px; */
-	margin-left: auto;
-    margin-right: auto;
-    width: 11em
+	padding-left: 0px;
+	margin: 0 auto 0 auto;
+	width: 8em;
+	font-size; 25px;
 }
 
 .main_nav__items li {
@@ -88,6 +96,52 @@ nav {
 	color: antiquewhite;
 	text-align: center;
 }
+
+.main_nav__item a:hover {
+ 	color:rgb(243, 254, 30);
+}
+
+.main_nav__item a:active {
+	color: rgb(243, 254, 30);
+}
+
+.main_nav__items li:nth-child(3) a:hover {
+	color:rgb(243, 254, 30);
+}
+
+.main_nav__items li:nth-child(3) a:active{
+	color:greenyellow;
+}
+
+#footer_homepage {
+	position: relative;
+	bottom:0;
+	left:0;
+	height: 8em;
+	width: 60em;
+}
+
+#footer_homepage div{
+	/* height: 10em; */
+  	display: flex;
+  	align-items: center;
+  	justify-content: center
+
+}
+#addressInfo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 133px;
+	width: 300px;
+}
+
+/* #miniLogo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+} */
+
 
 
 
